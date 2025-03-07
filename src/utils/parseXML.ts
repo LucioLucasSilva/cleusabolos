@@ -1,6 +1,6 @@
 export async function parseContactXML() {
   try {
-    const response = await fetch('/src/data/contact.xml');
+    const response = await fetch('/data/contact.xml');
     const xmlText = await response.text();
     const parser = new DOMParser();
     const xmlDoc = parser.parseFromString(xmlText, 'text/xml');
