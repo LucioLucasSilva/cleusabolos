@@ -244,7 +244,7 @@ function App() {
             />
             <span className="font-script text-xl text-yellow-400">Cleusa Bolos</span>
           </div>
-          <p>&copy; 2024 Cleusa Bolos. Todos os direitos reservados.</p>
+          <p>&copy; 2025 Cleusa Bolos. Todos os direitos reservados.</p>
         </div>
       </footer>
     </div>
