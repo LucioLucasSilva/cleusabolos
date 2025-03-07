@@ -4,8 +4,6 @@ import Carousel from './components/Carousel';
 import SocialLinks from './components/SocialLinks';
 import { parseContactXML } from './utils/parseXML';
 import logo from './images/logo.jpg';
-import BackgroundBolo from './images/BackgroundBolo.jpg';
-
 interface ContactData {
   address: string;
   whatsapp: string;
