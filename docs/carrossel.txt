@@ -1,0 +1,24 @@
+Como adicionar novas imagens ao carrossel:
+
+1. Formato das imagens:
+   - Use imagens no formato JPEG
+   - Dimensões recomendadas: 1200x800 pixels
+   - Tamanho máximo: 2MB por imagem
+
+2. Nomenclatura:
+   - As imagens devem ser nomeadas sequencialmente: 1.jpeg, 2.jpeg, 3.jpeg, etc.
+   - O carrossel suporta até 5 imagens
+
+3. Local de armazenamento:
+   - Coloque as imagens na pasta: Imagens/Carrossel/
+   - Certifique-se de que as imagens antigas sejam removidas ou renomeadas adequadamente
+
+4. Dicas:
+   - Use imagens de alta qualidade
+   - Mantenha uma proporção consistente entre as imagens
+   - Evite textos nas imagens, pois podem ficar ilegíveis em telas menores
+
+5. Observações:
+   - O carrossel carregará automaticamente as imagens em ordem numérica
+   - Caso uma imagem não seja encontrada, ela será ignorada
+   - Para melhor performance, otimize as imagens antes de adicioná-las
