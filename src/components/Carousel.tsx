@@ -1,5 +1,10 @@
 import { useState, useEffect } from 'react';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
+import img1 from '../images/carousel/1.jpg';
+import img2 from '../images/carousel/2.jpg';
+import img3 from '../images/carousel/3.jpg';
+import img4 from '../images/carousel/4.jpg';
+import img5 from '../images/carousel/5.jpg';
 
 export default function Carousel() {
   const [currentImage, setCurrentImage] = useState(0);
@@ -7,7 +12,7 @@ export default function Carousel() {
 
   useEffect(() => {
     // Generate array of image paths from 1 to 5
-    const carouselImages = Array.from({ length: 5 }, (_, i) => `./src/images/carousel/${i + 1}.jpg`);
+    const carouselImages = [img1, img2, img3, img4, img5];;
     setImages(carouselImages);
 
     // Auto-advance carousel every 5 seconds

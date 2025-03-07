@@ -3,6 +3,7 @@ import { Star, Heart, Award, Menu, X } from 'lucide-react';
 import Carousel from './components/Carousel';
 import SocialLinks from './components/SocialLinks';
 import { parseContactXML } from './utils/parseXML';
+import logo from './images/logo.jpg';
 
 interface ContactData {
   address: string;
@@ -60,7 +61,7 @@ function App() {
         <div className="container mx-auto px-4 flex items-center justify-between">
           <div className="flex items-center gap-2">
             <img 
-              src="/src/images/logo.jpg" 
+              src={logo} 
               alt="Cleusa Bolos Logo" 
               className="w-12 h-12 rounded-full"
             />
