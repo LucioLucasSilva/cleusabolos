@@ -4,6 +4,7 @@ import Carousel from './components/Carousel';
 import SocialLinks from './components/SocialLinks';
 import { parseContactXML } from './utils/parseXML';
 import logo from './images/logo.jpg';
+import BackgroundBolo from './images/BackgroundBolo.jpg';
 
 interface ContactData {
   address: string;
@@ -178,7 +179,7 @@ function App() {
       {/* About Section with Parallax */}
       <section id="sobre" className="parallax py-32 text-white relative"
         style={{
-          backgroundImage: 'linear-gradient(rgba(91, 27, 104, 0.8), rgba(91, 27, 104, 0.8)), url("src/images/BackgroundBolo.jpg")'
+          backgroundImage: 'linear-gradient(rgba(91, 27, 104, 0.8), rgba(91, 27, 104, 0.8)), url("/images/BackgroundBolo.jpg")'
         }}>
         <div className="container mx-auto px-4 relative z-10">
           <h2 className="text-5xl font-script text-center mb-8 text-shadow">Bem-vindo(a) ao mundo dos sabores irresistíveis!
@@ -239,7 +240,7 @@ function App() {
         <div className="container mx-auto px-4 text-center">
           <div className="flex items-center justify-center gap-2 mb-4">
             <img 
-              src="/src/images/logo.jpg" 
+              src={logo}
               alt="Cleusa Bolos Logo" 
               className="w-8 h-8 rounded-full"
             />
